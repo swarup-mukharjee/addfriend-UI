@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+body{
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100PX;
+}
+.card{
+    padding: 10PX;
+    height: 28em;
+    width: 18em;
+    background: rgba(255,255,255,0.5);
+    border-radius: 15PX;
+    box-shadow: 2px 2px 5px black;
+}
+#celebration{
+    box-shadow: 0px 0px;
+    object-fit: cover;
+    margin-top: 175px;
+    visibility: hidden;
+}
+img{
+    margin-left: 3px;
+    height: 15em;
+    width: 17.5em;
+    border-radius: 15PX;
+    box-shadow: 2px 2px 5px black;
+    object-fit: cover;
+    object-position: center;
+}
+#name{
+    display:flex;
+}
+#tick{
+    visibility: hidden;
+    margin-left: -3px;
+    margin-top: 15px;
+    height:15px;
+    width:15px;
+    background-color: transparent;
+    box-shadow: none;
+}
+#person{
+    display:flex;
+}
+#online{
+    visibility: hidden;
+    margin-left: 2px;
+    margin-top: 25px;
+    height:8px;
+    width:8px;
+    background-color: transparent;
+    box-shadow: none;
+    
+}
+
+.card h3{
+    padding-left:18%;
+    margin-top: 10%;
+    font-size: 150%;
+    /* text-shadow: .5px .5px 1px grey; */
+}
+.card h5{
+    margin-left: 5px;
+    padding-left:36%;
+    margin-top: 5%;
+    font-size: 120%;
+    /* text-shadow: .5px .5px 1px grey; */
+}
+.card #btn{
+    padding: 4px;
+    margin-left:18%;
+    margin-top: 10%;
+    width:70%;
+    font-weight: 700;
+   
+}
+button:hover{
+    text-shadow: .5px .5px 1px grey;
+    cursor: pointer;
+}

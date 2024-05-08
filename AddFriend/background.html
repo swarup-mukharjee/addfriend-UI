@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#main{
+height: 90vh;
+width:100%;
+border:2px solid black;
+}
+</style>
+<body>
+   <button style="background:purple;height:20px;width:70px;" onclick="purple()">purple</button>
+   <button style="background:limegreen;height:20px;width:70px;" onclick="limegreen()">limegreen</button>
+   <button style="background:cornflowerblue;height:20px;width:70px;" onclick="cornflowerblue()">cornflowerblue</button>
+   <div id="main">
+        <button style="background:red;height:20px;width:70px;" onclick="red()">red</button>
+        <button style="background:blue;height:20px;width:70px;" onclick="blue()">blue</button>
+        <button style="background:green;height:20px;width:70px;" onclick="green()">green</button>
+    </div>
+    <script>
+        const main=document.getElementById("main");
+        function purple(){
+            document.body.style.backgroundColor="purple";
+        }
+        function limegreen(){
+            document.body.style.backgroundColor="limegreen";
+        }
+        function cornflowerblue(){
+            document.body.style.backgroundColor="cornflowerblue";
+        }
+        function red(){
+            main.style.backgroundColor="red";
+        }
+        function blue(){
+            main.style.backgroundColor="blue";
+        }
+        function green(){
+            main.style.backgroundColor="green";
+        }
+    </script>
+
+    
+</body>
+</html>
